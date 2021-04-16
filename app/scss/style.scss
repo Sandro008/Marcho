@@ -30,19 +30,19 @@
         padding-bottom: 1px;
          border-bottom: 1px solid transparent;
         transition: all .3s;
-        @extend %quicksand-400;
+        @extend %roboto-500;
 
         &:hover {
             color: $accent;
             border-bottom: 1px solid $accent;
-            @extend %quicksand-500;
+            @extend %roboto-700;
         }
     }
 
     &__list-link--active {
         color: $accent;
         border-bottom: 1px solid $accent;
-        @extend %quicksand-500;
+        @extend %roboto-700;
     }
 }
 
